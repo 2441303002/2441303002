@@ -1,10 +1,18 @@
 <!DOCTYPE html>  
-<html>  
+<html lang="en">  
 <head>  
-    <title>我的GitHub Pages</title>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>猜数字游戏</title>  
+    <link rel="stylesheet" href="styles.css">  
 </head>  
 <body>  
-    <h1>欢迎来到我的GitHub Pages!</h1>  
-    <p>这是一个简单的静态网页示例。</p>  
+    <h1>猜数字游戏</h1>  
+    <p>我心里想了一个1到100之间的数字，你能猜到是多少吗？</p>  
+    <input type="number" id="guessInput" placeholder="请输入你的猜测">  
+    <button onclick="checkGuess()">猜一猜</button>  
+    <p id="feedback"></p>  
+  
+    <script src="script.js"></script>  
 </body>  
 </html>
